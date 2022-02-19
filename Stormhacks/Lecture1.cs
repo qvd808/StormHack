@@ -16,5 +16,15 @@ namespace Stormhacks
         {
             InitializeComponent();
         }
+
+        private void Lecture1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
