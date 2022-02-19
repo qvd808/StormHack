@@ -10,22 +10,11 @@ using System.Windows.Forms;
 
 namespace Stormhacks
 {
-    public partial class Form1 : Form
+    public partial class Lecture1 : Form
     {
-        Lecture1 lec1 = new Lecture1();
-        public Form1()
+        public Lecture1()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            lec1.Show();
         }
     }
 }
