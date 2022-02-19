@@ -12,9 +12,21 @@ namespace Stormhacks
 {
     public partial class Homepage : Form
     {
+        Form1 f1 = new Form1();
         public Homepage()
         {
             InitializeComponent();
+        }
+
+        private void Exit_button_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Start_button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            f1.Show();
         }
     }
 }
