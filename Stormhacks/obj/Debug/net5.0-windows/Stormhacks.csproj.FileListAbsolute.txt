@@ -36,3 +36,4 @@ D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.dll
 D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\ref\Stormhacks.dll
 D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.pdb
 D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.genruntimeconfig.cache
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Properties.Resources.resources
