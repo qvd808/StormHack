@@ -201,7 +201,8 @@ namespace Stormhacks
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(912, 488);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(912, 703);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox6);
