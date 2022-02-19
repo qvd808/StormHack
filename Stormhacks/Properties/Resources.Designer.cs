@@ -10,8 +10,9 @@
 
 namespace Stormhacks.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -31,7 +32,12 @@ namespace Stormhacks.Properties {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-        
+
+        public static Image hand1_l_bot_seg_1_cropped1 { get; internal set; }
+        public static Image hand1_e_bot_seg_1_cropped { get; internal set; }
+        public static Image hand1_o_bot_seg_1_cropped { get; internal set; }
+        public static Image hand1_y_bot_seg_1_cropped { get; internal set; }
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>

@@ -28,5 +28,10 @@ namespace Stormhacks
             this.Hide();
             lec1.Show();
         }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
     }
 }
