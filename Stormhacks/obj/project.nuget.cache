@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "gVYg+TWxoKLBSjoe/L9RJ2FCIzMG+kC9gNdoT8fX6bTn+YXDzhFUxBwOemV7YCCsEZGxy68oD/mlqTrKNDPRKQ==",
+  "dgSpecHash": "s+pTRBM83gES+kFh4bjcw8I3zodHdak/y7FeLoqXYvg1oGgD+Qv/K4O5GPhte0tAV9sKrOhoBgiOwuZKALeEeQ==",
   "success": true,
-  "projectFilePath": "D:\\Git test\\StormHack\\Stormhacks\\Stormhacks.csproj",
+  "projectFilePath": "C:\\Users\\comga\\source\\repos\\StormHack\\Stormhacks\\Stormhacks.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\comga\\source\\repos\\StormHack\\Stormhacks\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+    }
+  ]
 }

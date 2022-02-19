@@ -15,14 +15,10 @@ namespace Stormhacks
         Lecture1 lec1 = new Lecture1();
         Lecture2 lec2 = new Lecture2();
         Lecture3 lec3 = new Lecture3();
+        Lecture5 lec5 = new Lecture5();
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -42,5 +38,10 @@ namespace Stormhacks
             lec3.Show();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            lec5.Show();
+        }
     }
 }
