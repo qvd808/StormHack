@@ -55,6 +55,7 @@ namespace Stormhacks
             this.button2.TabIndex = 1;
             this.button2.Text = "Lecture 2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -83,6 +84,7 @@ namespace Stormhacks
             this.button5.TabIndex = 4;
             this.button5.Text = "Lecture 5";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label1
             // 
@@ -92,7 +94,6 @@ namespace Stormhacks
             this.label1.Size = new System.Drawing.Size(32, 15);
             this.label1.TabIndex = 5;
             this.label1.Text = "UwU";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 

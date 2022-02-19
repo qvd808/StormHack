@@ -10,7 +10,13 @@
     <Compile Update="Lecture1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Lecture2.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Lecture3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Lecture5.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
