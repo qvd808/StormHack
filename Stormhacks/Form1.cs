@@ -29,14 +29,6 @@ namespace Stormhacks
         {
             this.Hide();
             lec1.Show();
-<<<<<<< HEAD
-        }
-
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-
-        }
-=======
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -50,6 +42,5 @@ namespace Stormhacks
             lec3.Show();
         }
 
->>>>>>> 2f14c71c0c7421d22620f573ad118d5196893057
     }
 }
