@@ -43,4 +43,8 @@ C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Storm
 =======
 D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Homepage.resources
 >>>>>>> ecdd28e88d98d3d87dd82aeb52445e53e7b0f9a7
+<<<<<<< HEAD
 D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture2.resources
+=======
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture3.resources
+>>>>>>> 86ebfffd2e5c37c3d47f3af6ad888529950c72ee

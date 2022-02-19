@@ -182,7 +182,7 @@ namespace Stormhacks
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(148, 44);
             this.button1.TabIndex = 13;
-            this.button1.Text = "button1";
+            this.button1.Text = "Practice!!!!";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Lecture1
