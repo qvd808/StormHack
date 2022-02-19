@@ -39,7 +39,7 @@ namespace Stormhacks
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(205, 231);
+            this.button1.Location = new System.Drawing.Point(113, 230);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -49,7 +49,7 @@ namespace Stormhacks
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(205, 280);
+            this.button2.Location = new System.Drawing.Point(113, 282);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace Stormhacks
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(205, 329);
+            this.button3.Location = new System.Drawing.Point(113, 335);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
@@ -67,7 +67,7 @@ namespace Stormhacks
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(205, 375);
+            this.button4.Location = new System.Drawing.Point(113, 391);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 3;
@@ -76,7 +76,7 @@ namespace Stormhacks
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(205, 427);
+            this.button5.Location = new System.Drawing.Point(113, 443);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace Stormhacks
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(228, 91);
+            this.label1.Location = new System.Drawing.Point(133, 84);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 15);
             this.label1.TabIndex = 5;
@@ -97,7 +97,7 @@ namespace Stormhacks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(531, 643);
+            this.ClientSize = new System.Drawing.Size(324, 643);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

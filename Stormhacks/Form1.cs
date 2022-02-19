@@ -25,6 +25,7 @@ namespace Stormhacks
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             lec1.Show();
         }
     }
