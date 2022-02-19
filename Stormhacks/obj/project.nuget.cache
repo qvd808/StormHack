@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "s+pTRBM83gES+kFh4bjcw8I3zodHdak/y7FeLoqXYvg1oGgD+Qv/K4O5GPhte0tAV9sKrOhoBgiOwuZKALeEeQ==",
@@ -5,4 +6,13 @@
   "projectFilePath": "C:\\Users\\comga\\source\\repos\\StormHack\\Stormhacks\\Stormhacks.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "gVYg+TWxoKLBSjoe/L9RJ2FCIzMG+kC9gNdoT8fX6bTn+YXDzhFUxBwOemV7YCCsEZGxy68oD/mlqTrKNDPRKQ==",
+  "success": true,
+  "projectFilePath": "D:\\Git test\\StormHack\\Stormhacks\\Stormhacks.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> 70a09e72fcf8f4813b933454d7bcff8539addab2
 }
