@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace Stormhacks
 {
-    public partial class Lecture1 : Form
+    public partial class Lecture3 : Form
     {
-        public Lecture1()
+        public Lecture3()
         {
             InitializeComponent();
         }
 
-        private void Lecture1_Load(object sender, EventArgs e)
+        private void Lecture3_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
