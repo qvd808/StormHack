@@ -19,5 +19,8 @@
     <Compile Update="Lecture5.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Practices1\MultipleChoice1.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

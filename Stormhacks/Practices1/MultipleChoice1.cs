@@ -29,10 +29,22 @@ namespace Stormhacks.Practices1
 
         private void submit_Click(object sender, EventArgs e)
         {
-
+            if (CorrectAns.Checked == true)
+            {
+                Answer.Text = "Correct";
+            }
+            else
+            {
+                Answer.Text = "Wrong! Try Again";
+            }
         }
 
         private void D_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
         }
