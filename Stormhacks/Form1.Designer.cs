@@ -47,10 +47,10 @@ namespace Stormhacks
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Exit_button
+            // button2
             // 
             this.button2.Location = new System.Drawing.Point(113, 282);
-            this.button2.Name = "Exit_button";
+            this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "Lecture 2";
@@ -64,6 +64,7 @@ namespace Stormhacks
             this.button3.TabIndex = 2;
             this.button3.Text = "Lecture 3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
