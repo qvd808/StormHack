@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="hand1_l_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hand1_l_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hand1_0_bot_seg_1_cropped1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_0_bot_seg_1_cropped1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hand1_h_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_h_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,8 +130,17 @@
   <data name="hand1_f_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_f_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hand1_e_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_e_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand1_6_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_6_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hand1_y_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_y_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand1_3_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_3_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hand1_j_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_j_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,14 +154,23 @@
   <data name="hand1_o_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_o_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hand1_e_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hand1_e_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hand1_5_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_5_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand1_8_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_8_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand1_4_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_4_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hand1_2_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_2_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hand1_c_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_c_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand1_p_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_p_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hand1_1_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_1_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,10 +181,13 @@
   <data name="hand1_u_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hand1_u_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hand1_p_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hand1_p_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hand1_l_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_l_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hand1_l_bot_seg_1_cropped1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hand1_l_bot_seg_1_cropped1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hand1_7_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_7_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand1_9_bot_seg_1_cropped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hand1_9_bot_seg_1_cropped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
