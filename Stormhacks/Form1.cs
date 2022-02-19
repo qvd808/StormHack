@@ -15,6 +15,7 @@ namespace Stormhacks
         Lecture1 lec1 = new Lecture1();
         Lecture2 lec2 = new Lecture2();
         Lecture3 lec3 = new Lecture3();
+        Lecture4 lec4 = new Lecture4();
         Lecture5 lec5 = new Lecture5();
         public Form1()
         {
@@ -36,6 +37,12 @@ namespace Stormhacks
         {
             this.Hide();
             lec3.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            lec4.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
