@@ -61,6 +61,7 @@ namespace Stormhacks.Practices
             this.button2 = new System.Windows.Forms.Button();
             this.fdsg = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -268,7 +269,6 @@ namespace Stormhacks.Practices
             this.label1.TabIndex = 15;
             this.label1.Text = "How ar__ you?";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Result2
             // 
@@ -409,7 +409,16 @@ namespace Stormhacks.Practices
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 25);
             this.label3.TabIndex = 39;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(666, 853);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(84, 31);
+            this.button3.TabIndex = 40;
+            this.button3.Text = "Back";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Practice1
             // 
@@ -418,6 +427,7 @@ namespace Stormhacks.Practices
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(816, 551);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.answer);
@@ -510,5 +520,6 @@ namespace Stormhacks.Practices
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox fdsg;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button3;
     }
 }
