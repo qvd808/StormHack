@@ -12,9 +12,17 @@ namespace Stormhacks
 {
     public partial class Lecture4 : Form
     {
-        public Lecture4()
+        Form1 frm;
+        public Lecture4(Form1 fr)
         {
             InitializeComponent();
+            frm = fr;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frm.Show();
         }
     }
 }
