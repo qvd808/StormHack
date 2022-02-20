@@ -131,12 +131,15 @@ namespace Stormhacks.Practices
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(868, 1200);
+            this.button3.BackColor = System.Drawing.Color.Goldenrod;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.GhostWhite;
+            this.button3.Location = new System.Drawing.Point(350, 1296);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 38);
+            this.button3.Size = new System.Drawing.Size(86, 35);
             this.button3.TabIndex = 93;
             this.button3.Text = "Back";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox6
@@ -181,18 +184,22 @@ namespace Stormhacks.Practices
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(615, 623);
+            this.button2.BackColor = System.Drawing.Color.Goldenrod;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.GhostWhite;
+            this.button2.Location = new System.Drawing.Point(612, 599);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 38);
+            this.button2.Size = new System.Drawing.Size(86, 35);
             this.button2.TabIndex = 88;
             this.button2.Text = "Submit";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Historic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(234, 527);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(231, 32);
@@ -224,7 +231,8 @@ namespace Stormhacks.Practices
             // 
             this.Result.AutoSize = true;
             this.Result.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result.Location = new System.Drawing.Point(598, 158);
+            this.Result.ForeColor = System.Drawing.Color.MediumBlue;
+            this.Result.Location = new System.Drawing.Point(603, 157);
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(0, 25);
             this.Result.TabIndex = 84;
@@ -233,7 +241,8 @@ namespace Stormhacks.Practices
             // 
             this.Result2.AutoSize = true;
             this.Result2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result2.Location = new System.Drawing.Point(605, 439);
+            this.Result2.ForeColor = System.Drawing.Color.MediumBlue;
+            this.Result2.Location = new System.Drawing.Point(612, 403);
             this.Result2.Name = "Result2";
             this.Result2.Size = new System.Drawing.Size(0, 25);
             this.Result2.TabIndex = 83;
@@ -261,6 +270,7 @@ namespace Stormhacks.Practices
             // CorrectAns2
             // 
             this.CorrectAns2.AutoSize = true;
+            this.CorrectAns2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CorrectAns2.Location = new System.Drawing.Point(527, 454);
             this.CorrectAns2.Name = "CorrectAns2";
             this.CorrectAns2.Size = new System.Drawing.Size(33, 19);
@@ -272,6 +282,7 @@ namespace Stormhacks.Practices
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
+            this.radioButton5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton5.Location = new System.Drawing.Point(367, 457);
             this.radioButton5.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
             this.radioButton5.Name = "radioButton5";
@@ -285,6 +296,7 @@ namespace Stormhacks.Practices
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
+            this.radioButton6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton6.Location = new System.Drawing.Point(227, 457);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(32, 19);
@@ -296,6 +308,7 @@ namespace Stormhacks.Practices
             // WrongAns2
             // 
             this.WrongAns2.AutoSize = true;
+            this.WrongAns2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.WrongAns2.Location = new System.Drawing.Point(75, 457);
             this.WrongAns2.Name = "WrongAns2";
             this.WrongAns2.Size = new System.Drawing.Size(33, 19);
@@ -306,18 +319,22 @@ namespace Stormhacks.Practices
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(622, 358);
+            this.button1.BackColor = System.Drawing.Color.Goldenrod;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.GhostWhite;
+            this.button1.Location = new System.Drawing.Point(612, 336);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 38);
+            this.button1.Size = new System.Drawing.Size(86, 35);
             this.button1.TabIndex = 76;
             this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Historic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(194, 273);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(288, 32);
@@ -368,6 +385,7 @@ namespace Stormhacks.Practices
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
+            this.radioButton4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton4.Location = new System.Drawing.Point(520, 206);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(33, 19);
@@ -379,6 +397,7 @@ namespace Stormhacks.Practices
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
+            this.radioButton3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton3.Location = new System.Drawing.Point(75, 206);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(33, 19);
@@ -390,6 +409,7 @@ namespace Stormhacks.Practices
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton2.Location = new System.Drawing.Point(367, 206);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(33, 19);
@@ -401,6 +421,7 @@ namespace Stormhacks.Practices
             // CorrectAns
             // 
             this.CorrectAns.AutoSize = true;
+            this.CorrectAns.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CorrectAns.Location = new System.Drawing.Point(227, 206);
             this.CorrectAns.Name = "CorrectAns";
             this.CorrectAns.Size = new System.Drawing.Size(32, 19);
@@ -411,18 +432,22 @@ namespace Stormhacks.Practices
             // 
             // submit
             // 
-            this.submit.Location = new System.Drawing.Point(615, 99);
+            this.submit.BackColor = System.Drawing.Color.Goldenrod;
+            this.submit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.submit.ForeColor = System.Drawing.Color.GhostWhite;
+            this.submit.Location = new System.Drawing.Point(612, 98);
             this.submit.Name = "submit";
-            this.submit.Size = new System.Drawing.Size(104, 38);
+            this.submit.Size = new System.Drawing.Size(86, 35);
             this.submit.TabIndex = 66;
             this.submit.Text = "Submit";
-            this.submit.UseVisualStyleBackColor = true;
+            this.submit.UseVisualStyleBackColor = false;
             this.submit.Click += new System.EventHandler(this.submit_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Historic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(228, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(227, 32);
@@ -478,7 +503,8 @@ namespace Stormhacks.Practices
             // 
             this.Result3.AutoSize = true;
             this.Result3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result3.Location = new System.Drawing.Point(622, 670);
+            this.Result3.ForeColor = System.Drawing.Color.MediumBlue;
+            this.Result3.Location = new System.Drawing.Point(612, 670);
             this.Result3.Name = "Result3";
             this.Result3.Size = new System.Drawing.Size(0, 25);
             this.Result3.TabIndex = 98;
@@ -487,6 +513,7 @@ namespace Stormhacks.Practices
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.MediumBlue;
             this.label4.Location = new System.Drawing.Point(476, 971);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 25);
@@ -494,12 +521,15 @@ namespace Stormhacks.Practices
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.Goldenrod;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.GhostWhite;
             this.button4.Location = new System.Drawing.Point(351, 966);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(92, 34);
+            this.button4.Size = new System.Drawing.Size(86, 35);
             this.button4.TabIndex = 106;
             this.button4.Text = "Submit";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // answer
@@ -514,6 +544,7 @@ namespace Stormhacks.Practices
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(24, 766);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(751, 45);
@@ -594,6 +625,7 @@ namespace Stormhacks.Practices
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.MediumBlue;
             this.label6.Location = new System.Drawing.Point(476, 1213);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(0, 25);
@@ -601,12 +633,15 @@ namespace Stormhacks.Practices
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.Goldenrod;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.Color.GhostWhite;
             this.button5.Location = new System.Drawing.Point(351, 1208);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(92, 34);
+            this.button5.Size = new System.Drawing.Size(86, 35);
             this.button5.TabIndex = 120;
             this.button5.Text = "Submit";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // answer2
@@ -621,6 +656,7 @@ namespace Stormhacks.Practices
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label7.Location = new System.Drawing.Point(24, 1008);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(751, 45);
@@ -724,6 +760,7 @@ namespace Stormhacks.Practices
             // radioButton13
             // 
             this.radioButton13.AutoSize = true;
+            this.radioButton13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton13.Location = new System.Drawing.Point(519, 701);
             this.radioButton13.Name = "radioButton13";
             this.radioButton13.Size = new System.Drawing.Size(33, 19);
@@ -735,6 +772,7 @@ namespace Stormhacks.Practices
             // radioButton14
             // 
             this.radioButton14.AutoSize = true;
+            this.radioButton14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton14.Location = new System.Drawing.Point(359, 704);
             this.radioButton14.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
             this.radioButton14.Name = "radioButton14";
@@ -748,6 +786,7 @@ namespace Stormhacks.Practices
             // CorrectAns4
             // 
             this.CorrectAns4.AutoSize = true;
+            this.CorrectAns4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CorrectAns4.Location = new System.Drawing.Point(219, 704);
             this.CorrectAns4.Name = "CorrectAns4";
             this.CorrectAns4.Size = new System.Drawing.Size(32, 19);
@@ -759,6 +798,7 @@ namespace Stormhacks.Practices
             // radioButton16
             // 
             this.radioButton16.AutoSize = true;
+            this.radioButton16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.radioButton16.Location = new System.Drawing.Point(67, 704);
             this.radioButton16.Name = "radioButton16";
             this.radioButton16.Size = new System.Drawing.Size(33, 19);
@@ -772,7 +812,8 @@ namespace Stormhacks.Practices
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(816, 514);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(859, 520);
             this.Controls.Add(this.radioButton13);
             this.Controls.Add(this.radioButton14);
             this.Controls.Add(this.CorrectAns4);
@@ -836,6 +877,7 @@ namespace Stormhacks.Practices
             this.Controls.Add(this.submit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Question1);
+            this.ForeColor = System.Drawing.Color.MediumBlue;
             this.Name = "Practice3";
             this.Text = "Practice3";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
