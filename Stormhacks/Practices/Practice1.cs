@@ -75,5 +75,22 @@ namespace Stormhacks.Practices
         {
 
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            if (answer.Text == "hello")
+            {
+                label3.Text = "Correct!!";
+            }
+            else
+            {
+                label3.Text = "Wrong! Try again!";
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
