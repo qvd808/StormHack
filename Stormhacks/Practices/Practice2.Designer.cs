@@ -160,12 +160,12 @@ namespace Stormhacks.Practices
             // 
             this.Question1.AutoSize = true;
             this.Question1.Font = new System.Drawing.Font("Segoe UI Historic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Question1.Location = new System.Drawing.Point(228, 76);
+            this.Question1.Location = new System.Drawing.Point(162, 75);
             this.Question1.Name = "Question1";
-            this.Question1.Size = new System.Drawing.Size(519, 81);
+            this.Question1.Size = new System.Drawing.Size(574, 81);
             this.Question1.TabIndex = 15;
-            this.Question1.Text = "He__lo my friends!";
-            this.Question1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Question1.Text = "My n__me is Deedee";
+            this.Question1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Practice2
             // 

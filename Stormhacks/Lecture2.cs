@@ -12,9 +12,16 @@ namespace Stormhacks
 {
     public partial class Lecture2 : Form
     {
+        Practices.Practice2 practice = new Practices.Practice2();
         public Lecture2()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            practice.Show();
         }
     }
 }
