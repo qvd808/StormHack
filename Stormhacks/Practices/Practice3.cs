@@ -51,7 +51,7 @@ namespace Stormhacks.Practices
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (CorrectAns3.Checked == true)
+            if (CorrectAns4.Checked == true)
             {
                 Result3.Text = "Correct! Congrats!";
             }
