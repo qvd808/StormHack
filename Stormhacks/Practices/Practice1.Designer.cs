@@ -409,6 +409,7 @@ namespace Stormhacks.Practices
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 25);
             this.label3.TabIndex = 39;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button3
             // 
