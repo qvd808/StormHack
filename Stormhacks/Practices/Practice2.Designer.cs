@@ -90,6 +90,7 @@ namespace Stormhacks.Practices
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.Result6 = new System.Windows.Forms.Label();
             this.Result5 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -726,6 +727,16 @@ namespace Stormhacks.Practices
             this.Result5.Size = new System.Drawing.Size(0, 25);
             this.Result5.TabIndex = 79;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(648, 1707);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(101, 34);
+            this.button3.TabIndex = 80;
+            this.button3.Text = "Back";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Practice2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -733,6 +744,7 @@ namespace Stormhacks.Practices
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(817, 405);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.Result5);
             this.Controls.Add(this.Result6);
             this.Controls.Add(this.button1);
@@ -888,5 +900,6 @@ namespace Stormhacks.Practices
         private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.Label Result6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
     }
 }

@@ -12,9 +12,11 @@ namespace Stormhacks.Practices
 {
     public partial class Practice1 : Form
     {
-        public Practice1()
+        Lecture1 lecture1;
+        public Practice1(Lecture1 l1)
         {
             InitializeComponent();
+            lecture1 = l1;
         }
 
         private void A_btn_Click(object sender, EventArgs e)
@@ -71,11 +73,6 @@ namespace Stormhacks.Practices
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click_1(object sender, EventArgs e)
         {
             if (answer.Text == "hello")
@@ -88,9 +85,10 @@ namespace Stormhacks.Practices
             }
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            lecture1.Show();
         }
 
         private void answer_TextChanged(object sender, EventArgs e)

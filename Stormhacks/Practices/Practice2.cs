@@ -12,9 +12,11 @@ namespace Stormhacks.Practices
 {
     public partial class Practice2 : Form
     {
-        public Practice2()
+        Lecture2 lecture2;
+        public Practice2(Lecture2 l2)
         {
             InitializeComponent();
+            lecture2 = l2;
         }
 
         private void submit1_Click(object sender, EventArgs e)
@@ -91,6 +93,12 @@ namespace Stormhacks.Practices
             {
                 Result6.Text = "Wrong! Try again!";
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            lecture2.Show();
         }
     }
 }
