@@ -12,7 +12,7 @@ namespace Stormhacks.Practices
 {
     public partial class Practice4 : Form
     {
-        Lecture4 lecture4 = new Lecture4(new Form1());
+        Lecture4 lecture4;
         public Practice4(Lecture4 l4)
         {
             InitializeComponent();
