@@ -312,74 +312,81 @@ namespace Stormhacks.Practices
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Stormhacks.Properties.Resources.hand1_e_bot_seg_1_cropped;
-            this.pictureBox6.Location = new System.Drawing.Point(202, 667);
+            this.pictureBox6.Location = new System.Drawing.Point(202, 700);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(109, 106);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 33;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox10
             // 
             this.pictureBox10.Image = global::Stormhacks.Properties.Resources.hand1_h_bot_seg_1_cropped;
-            this.pictureBox10.Location = new System.Drawing.Point(55, 667);
+            this.pictureBox10.Location = new System.Drawing.Point(55, 700);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(109, 106);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 32;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // pictureBox11
             // 
             this.pictureBox11.Image = global::Stormhacks.Properties.Resources.hand1_l_bot_seg_1_cropped;
-            this.pictureBox11.Location = new System.Drawing.Point(492, 667);
+            this.pictureBox11.Location = new System.Drawing.Point(492, 700);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(109, 106);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 31;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
             // pictureBox12
             // 
             this.pictureBox12.Image = global::Stormhacks.Properties.Resources.hand1_l_bot_seg_1_cropped;
-            this.pictureBox12.Location = new System.Drawing.Point(346, 667);
+            this.pictureBox12.Location = new System.Drawing.Point(346, 700);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(109, 106);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 30;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // pictureBox13
             // 
             this.pictureBox13.Image = global::Stormhacks.Properties.Resources.hand1_o_bot_seg_1_cropped;
-            this.pictureBox13.Location = new System.Drawing.Point(636, 667);
+            this.pictureBox13.Location = new System.Drawing.Point(636, 700);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(109, 106);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 34;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(27, 791);
+            this.label2.Location = new System.Drawing.Point(36, 633);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(751, 45);
             this.label2.TabIndex = 35;
             this.label2.Text = "From the string above, type your answer in the box:";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // answer
             // 
-            this.answer.Location = new System.Drawing.Point(182, 861);
+            this.answer.Location = new System.Drawing.Point(199, 840);
             this.answer.Margin = new System.Windows.Forms.Padding(3, 3, 3, 20);
             this.answer.Name = "answer";
             this.answer.Size = new System.Drawing.Size(129, 23);
             this.answer.TabIndex = 36;
+            this.answer.TextChanged += new System.EventHandler(this.answer_TextChanged);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(346, 854);
+            this.button2.Location = new System.Drawing.Point(363, 833);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 34);
             this.button2.TabIndex = 37;
@@ -398,7 +405,7 @@ namespace Stormhacks.Practices
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(487, 844);
+            this.label3.Location = new System.Drawing.Point(488, 838);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 25);
             this.label3.TabIndex = 39;
