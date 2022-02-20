@@ -73,16 +73,6 @@ namespace Stormhacks.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hand1_0_bot_seg_1_cropped1 {
-            get {
-                object obj = ResourceManager.GetObject("hand1_0_bot_seg_1_cropped1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap hand1_1_bot_seg_1_cropped {
             get {
                 object obj = ResourceManager.GetObject("hand1_1_bot_seg_1_cropped", resourceCulture);
@@ -246,6 +236,16 @@ namespace Stormhacks.Properties {
         internal static System.Drawing.Bitmap hand1_l_bot_seg_1_cropped {
             get {
                 object obj = ResourceManager.GetObject("hand1_l_bot_seg_1_cropped", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hand1_l_bot_seg_1_cropped1 {
+            get {
+                object obj = ResourceManager.GetObject("hand1_l_bot_seg_1_cropped1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

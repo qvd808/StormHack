@@ -12,7 +12,9 @@ namespace Stormhacks
 {
     public partial class Lecture1 : Form
     {
-        Practices1.MultipleChoice1 MP1 = new Practices1.MultipleChoice1();
+        Practices1.MultipleChoice1 multiChoice1 = new Practices1.MultipleChoice1();
+
+
         public Lecture1()
         {
             InitializeComponent();
@@ -36,7 +38,7 @@ namespace Stormhacks
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MP1.Show();
+            multiChoice1.Show();
         }
     }
 }
