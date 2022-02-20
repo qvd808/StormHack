@@ -22,7 +22,10 @@
     <Compile Update="Lecture5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Practices1\MultipleChoice1.cs">
+    <Compile Update="Practices\Practice1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Practices\Practice2.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

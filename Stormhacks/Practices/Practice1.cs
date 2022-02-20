@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Stormhacks.Practices1
+namespace Stormhacks.Practices
 {
-    public partial class MultipleChoice1 : Form
+    public partial class Practice1 : Form
     {
-        public MultipleChoice1()
+        public Practice1()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
-namespace Stormhacks.Practices1
+namespace Stormhacks.Practices
 {
-    partial class MultipleChoice1
+    partial class Practice1
     {
         /// <summary>
         /// Required designer variable.

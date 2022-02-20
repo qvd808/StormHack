@@ -12,7 +12,7 @@ namespace Stormhacks
 {
     public partial class Lecture1 : Form
     {
-        Practices1.MultipleChoice1 multiChoice1 = new Practices1.MultipleChoice1();
+        Practices.Practice1 multiChoice1 = new Practices.Practice1();
 
 
         public Lecture1()
