@@ -74,6 +74,7 @@ namespace Stormhacks.Practices
             this.CorrectAns4 = new System.Windows.Forms.RadioButton();
             this.submit4 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -95,10 +96,9 @@ namespace Stormhacks.Practices
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(591, 225);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(517, 169);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox4.Size = new System.Drawing.Size(109, 106);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 25;
             this.pictureBox4.TabStop = false;
@@ -106,10 +106,9 @@ namespace Stormhacks.Practices
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(426, 225);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(373, 169);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox3.Size = new System.Drawing.Size(109, 106);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 24;
             this.pictureBox3.TabStop = false;
@@ -117,10 +116,9 @@ namespace Stormhacks.Practices
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(259, 225);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(227, 169);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox2.Size = new System.Drawing.Size(109, 106);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 23;
             this.pictureBox2.TabStop = false;
@@ -128,10 +126,9 @@ namespace Stormhacks.Practices
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(91, 225);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(80, 169);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox1.Size = new System.Drawing.Size(109, 106);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
@@ -139,10 +136,9 @@ namespace Stormhacks.Practices
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(644, 381);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton4.Location = new System.Drawing.Point(564, 286);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(41, 24);
+            this.radioButton4.Size = new System.Drawing.Size(33, 19);
             this.radioButton4.TabIndex = 20;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "D";
@@ -151,10 +147,9 @@ namespace Stormhacks.Practices
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(474, 381);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton3.Location = new System.Drawing.Point(415, 286);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(39, 24);
+            this.radioButton3.Size = new System.Drawing.Size(33, 19);
             this.radioButton3.TabIndex = 19;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "C";
@@ -163,10 +158,9 @@ namespace Stormhacks.Practices
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(311, 381);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton2.Location = new System.Drawing.Point(272, 286);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(39, 24);
+            this.radioButton2.Size = new System.Drawing.Size(32, 19);
             this.radioButton2.TabIndex = 18;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "B";
@@ -175,10 +169,9 @@ namespace Stormhacks.Practices
             // CorrectAns1
             // 
             this.CorrectAns1.AutoSize = true;
-            this.CorrectAns1.Location = new System.Drawing.Point(138, 381);
-            this.CorrectAns1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CorrectAns1.Location = new System.Drawing.Point(121, 286);
             this.CorrectAns1.Name = "CorrectAns1";
-            this.CorrectAns1.Size = new System.Drawing.Size(40, 24);
+            this.CorrectAns1.Size = new System.Drawing.Size(33, 19);
             this.CorrectAns1.TabIndex = 17;
             this.CorrectAns1.TabStop = true;
             this.CorrectAns1.Text = "A";
@@ -186,10 +179,9 @@ namespace Stormhacks.Practices
             // 
             // submit1
             // 
-            this.submit1.Location = new System.Drawing.Point(753, 238);
-            this.submit1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.submit1.Location = new System.Drawing.Point(659, 178);
             this.submit1.Name = "submit1";
-            this.submit1.Size = new System.Drawing.Size(119, 51);
+            this.submit1.Size = new System.Drawing.Size(104, 38);
             this.submit1.TabIndex = 16;
             this.submit1.Text = "Submit";
             this.submit1.UseVisualStyleBackColor = true;
@@ -199,9 +191,9 @@ namespace Stormhacks.Practices
             // 
             this.Question1.AutoSize = true;
             this.Question1.Font = new System.Drawing.Font("Segoe UI Historic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Question1.Location = new System.Drawing.Point(162, 75);
+            this.Question1.Location = new System.Drawing.Point(142, 56);
             this.Question1.Name = "Question1";
-            this.Question1.Size = new System.Drawing.Size(574, 81);
+            this.Question1.Size = new System.Drawing.Size(460, 65);
             this.Question1.TabIndex = 15;
             this.Question1.Text = "My n__me is Deedee";
             this.Question1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -210,27 +202,26 @@ namespace Stormhacks.Practices
             // 
             this.Result1.AutoSize = true;
             this.Result1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result1.Location = new System.Drawing.Point(736, 311);
+            this.Result1.Location = new System.Drawing.Point(644, 233);
             this.Result1.Name = "Result1";
-            this.Result1.Size = new System.Drawing.Size(0, 32);
+            this.Result1.Size = new System.Drawing.Size(0, 25);
             this.Result1.TabIndex = 28;
             // 
             // Result2
             // 
             this.Result2.AutoSize = true;
             this.Result2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result2.Location = new System.Drawing.Point(744, 678);
+            this.Result2.Location = new System.Drawing.Point(651, 508);
             this.Result2.Name = "Result2";
-            this.Result2.Size = new System.Drawing.Size(0, 32);
+            this.Result2.Size = new System.Drawing.Size(0, 25);
             this.Result2.TabIndex = 39;
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(599, 592);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(524, 444);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox5.Size = new System.Drawing.Size(109, 106);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 38;
             this.pictureBox5.TabStop = false;
@@ -238,10 +229,9 @@ namespace Stormhacks.Practices
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(434, 592);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(380, 444);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox6.Size = new System.Drawing.Size(109, 106);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 37;
             this.pictureBox6.TabStop = false;
@@ -249,10 +239,9 @@ namespace Stormhacks.Practices
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(267, 592);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox7.Location = new System.Drawing.Point(234, 444);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox7.Size = new System.Drawing.Size(109, 106);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 36;
             this.pictureBox7.TabStop = false;
@@ -260,10 +249,9 @@ namespace Stormhacks.Practices
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(99, 592);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox8.Location = new System.Drawing.Point(87, 444);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox8.Size = new System.Drawing.Size(109, 106);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 35;
             this.pictureBox8.TabStop = false;
@@ -271,10 +259,9 @@ namespace Stormhacks.Practices
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(632, 748);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton1.Location = new System.Drawing.Point(553, 561);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(41, 24);
+            this.radioButton1.Size = new System.Drawing.Size(33, 19);
             this.radioButton1.TabIndex = 34;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "D";
@@ -283,10 +270,9 @@ namespace Stormhacks.Practices
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(475, 748);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton5.Location = new System.Drawing.Point(416, 561);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(39, 24);
+            this.radioButton5.Size = new System.Drawing.Size(33, 19);
             this.radioButton5.TabIndex = 33;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "C";
@@ -295,10 +281,9 @@ namespace Stormhacks.Practices
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(319, 748);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton6.Location = new System.Drawing.Point(279, 561);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(39, 24);
+            this.radioButton6.Size = new System.Drawing.Size(32, 19);
             this.radioButton6.TabIndex = 32;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "B";
@@ -307,10 +292,9 @@ namespace Stormhacks.Practices
             // CorrectAns2
             // 
             this.CorrectAns2.AutoSize = true;
-            this.CorrectAns2.Location = new System.Drawing.Point(146, 748);
-            this.CorrectAns2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CorrectAns2.Location = new System.Drawing.Point(128, 561);
             this.CorrectAns2.Name = "CorrectAns2";
-            this.CorrectAns2.Size = new System.Drawing.Size(40, 24);
+            this.CorrectAns2.Size = new System.Drawing.Size(33, 19);
             this.CorrectAns2.TabIndex = 31;
             this.CorrectAns2.TabStop = true;
             this.CorrectAns2.Text = "A";
@@ -318,10 +302,9 @@ namespace Stormhacks.Practices
             // 
             // submit2
             // 
-            this.submit2.Location = new System.Drawing.Point(761, 605);
-            this.submit2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.submit2.Location = new System.Drawing.Point(666, 454);
             this.submit2.Name = "submit2";
-            this.submit2.Size = new System.Drawing.Size(119, 51);
+            this.submit2.Size = new System.Drawing.Size(104, 38);
             this.submit2.TabIndex = 30;
             this.submit2.Text = "Submit";
             this.submit2.UseVisualStyleBackColor = true;
@@ -331,9 +314,9 @@ namespace Stormhacks.Practices
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Historic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(170, 442);
+            this.label2.Location = new System.Drawing.Point(149, 332);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(589, 81);
+            this.label2.Size = new System.Drawing.Size(472, 65);
             this.label2.TabIndex = 29;
             this.label2.Text = "Where are you fro__?";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -342,18 +325,17 @@ namespace Stormhacks.Practices
             // 
             this.Result3.AutoSize = true;
             this.Result3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result3.Location = new System.Drawing.Point(744, 1074);
+            this.Result3.Location = new System.Drawing.Point(651, 806);
             this.Result3.Name = "Result3";
-            this.Result3.Size = new System.Drawing.Size(0, 32);
+            this.Result3.Size = new System.Drawing.Size(0, 25);
             this.Result3.TabIndex = 50;
             // 
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(267, 988);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox9.Location = new System.Drawing.Point(234, 741);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox9.Size = new System.Drawing.Size(109, 106);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 49;
             this.pictureBox9.TabStop = false;
@@ -361,10 +343,9 @@ namespace Stormhacks.Practices
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(434, 988);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox10.Location = new System.Drawing.Point(380, 741);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox10.Size = new System.Drawing.Size(109, 106);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 48;
             this.pictureBox10.TabStop = false;
@@ -372,10 +353,9 @@ namespace Stormhacks.Practices
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(599, 988);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox11.Location = new System.Drawing.Point(524, 741);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox11.Size = new System.Drawing.Size(109, 106);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 47;
             this.pictureBox11.TabStop = false;
@@ -383,10 +363,9 @@ namespace Stormhacks.Practices
             // pictureBox12
             // 
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(99, 988);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox12.Location = new System.Drawing.Point(87, 741);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox12.Size = new System.Drawing.Size(109, 106);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 46;
             this.pictureBox12.TabStop = false;
@@ -394,10 +373,9 @@ namespace Stormhacks.Practices
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(652, 1144);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton7.Location = new System.Drawing.Point(570, 858);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(41, 24);
+            this.radioButton7.Size = new System.Drawing.Size(33, 19);
             this.radioButton7.TabIndex = 45;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "D";
@@ -406,10 +384,9 @@ namespace Stormhacks.Practices
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(482, 1144);
-            this.radioButton8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton8.Location = new System.Drawing.Point(422, 858);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(39, 24);
+            this.radioButton8.Size = new System.Drawing.Size(33, 19);
             this.radioButton8.TabIndex = 44;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "C";
@@ -418,10 +395,9 @@ namespace Stormhacks.Practices
             // radioButton9
             // 
             this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(319, 1144);
-            this.radioButton9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton9.Location = new System.Drawing.Point(279, 858);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(39, 24);
+            this.radioButton9.Size = new System.Drawing.Size(32, 19);
             this.radioButton9.TabIndex = 43;
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "B";
@@ -430,10 +406,9 @@ namespace Stormhacks.Practices
             // CorrectAns3
             // 
             this.CorrectAns3.AutoSize = true;
-            this.CorrectAns3.Location = new System.Drawing.Point(146, 1144);
-            this.CorrectAns3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CorrectAns3.Location = new System.Drawing.Point(128, 858);
             this.CorrectAns3.Name = "CorrectAns3";
-            this.CorrectAns3.Size = new System.Drawing.Size(40, 24);
+            this.CorrectAns3.Size = new System.Drawing.Size(33, 19);
             this.CorrectAns3.TabIndex = 42;
             this.CorrectAns3.TabStop = true;
             this.CorrectAns3.Text = "A";
@@ -441,10 +416,9 @@ namespace Stormhacks.Practices
             // 
             // submit3
             // 
-            this.submit3.Location = new System.Drawing.Point(761, 1007);
-            this.submit3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.submit3.Location = new System.Drawing.Point(666, 755);
             this.submit3.Name = "submit3";
-            this.submit3.Size = new System.Drawing.Size(119, 51);
+            this.submit3.Size = new System.Drawing.Size(104, 38);
             this.submit3.TabIndex = 41;
             this.submit3.Text = "Submit";
             this.submit3.UseVisualStyleBackColor = true;
@@ -454,9 +428,9 @@ namespace Stormhacks.Practices
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Historic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(162, 844);
+            this.label3.Location = new System.Drawing.Point(142, 633);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(528, 81);
+            this.label3.Size = new System.Drawing.Size(421, 65);
             this.label3.TabIndex = 40;
             this.label3.Text = "I\'m from Viet __am";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -465,18 +439,17 @@ namespace Stormhacks.Practices
             // 
             this.Result4.AutoSize = true;
             this.Result4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result4.Location = new System.Drawing.Point(728, 1472);
+            this.Result4.Location = new System.Drawing.Point(637, 1104);
             this.Result4.Name = "Result4";
-            this.Result4.Size = new System.Drawing.Size(0, 32);
+            this.Result4.Size = new System.Drawing.Size(0, 25);
             this.Result4.TabIndex = 61;
             // 
             // pictureBox13
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(251, 1386);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox13.Location = new System.Drawing.Point(220, 1040);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox13.Size = new System.Drawing.Size(109, 106);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 60;
             this.pictureBox13.TabStop = false;
@@ -484,10 +457,9 @@ namespace Stormhacks.Practices
             // pictureBox14
             // 
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(418, 1386);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox14.Location = new System.Drawing.Point(366, 1040);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox14.Size = new System.Drawing.Size(109, 106);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 59;
             this.pictureBox14.TabStop = false;
@@ -495,10 +467,9 @@ namespace Stormhacks.Practices
             // pictureBox15
             // 
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(583, 1386);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox15.Location = new System.Drawing.Point(510, 1040);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox15.Size = new System.Drawing.Size(109, 106);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 58;
             this.pictureBox15.TabStop = false;
@@ -506,10 +477,9 @@ namespace Stormhacks.Practices
             // pictureBox16
             // 
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(83, 1386);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox16.Location = new System.Drawing.Point(73, 1040);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(125, 141);
+            this.pictureBox16.Size = new System.Drawing.Size(109, 106);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 57;
             this.pictureBox16.TabStop = false;
@@ -517,10 +487,9 @@ namespace Stormhacks.Practices
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(636, 1542);
-            this.radioButton10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton10.Location = new System.Drawing.Point(556, 1156);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(41, 24);
+            this.radioButton10.Size = new System.Drawing.Size(33, 19);
             this.radioButton10.TabIndex = 56;
             this.radioButton10.TabStop = true;
             this.radioButton10.Text = "D";
@@ -529,10 +498,9 @@ namespace Stormhacks.Practices
             // radioButton11
             // 
             this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(466, 1542);
-            this.radioButton11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton11.Location = new System.Drawing.Point(408, 1156);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(39, 24);
+            this.radioButton11.Size = new System.Drawing.Size(33, 19);
             this.radioButton11.TabIndex = 55;
             this.radioButton11.TabStop = true;
             this.radioButton11.Text = "C";
@@ -541,10 +509,9 @@ namespace Stormhacks.Practices
             // radioButton12
             // 
             this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(303, 1542);
-            this.radioButton12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton12.Location = new System.Drawing.Point(265, 1156);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(39, 24);
+            this.radioButton12.Size = new System.Drawing.Size(32, 19);
             this.radioButton12.TabIndex = 54;
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "B";
@@ -553,10 +520,9 @@ namespace Stormhacks.Practices
             // CorrectAns4
             // 
             this.CorrectAns4.AutoSize = true;
-            this.CorrectAns4.Location = new System.Drawing.Point(130, 1542);
-            this.CorrectAns4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CorrectAns4.Location = new System.Drawing.Point(114, 1156);
             this.CorrectAns4.Name = "CorrectAns4";
-            this.CorrectAns4.Size = new System.Drawing.Size(40, 24);
+            this.CorrectAns4.Size = new System.Drawing.Size(33, 19);
             this.CorrectAns4.TabIndex = 53;
             this.CorrectAns4.TabStop = true;
             this.CorrectAns4.Text = "A";
@@ -564,10 +530,9 @@ namespace Stormhacks.Practices
             // 
             // submit4
             // 
-            this.submit4.Location = new System.Drawing.Point(745, 1405);
-            this.submit4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.submit4.Location = new System.Drawing.Point(652, 1054);
             this.submit4.Name = "submit4";
-            this.submit4.Size = new System.Drawing.Size(119, 51);
+            this.submit4.Size = new System.Drawing.Size(104, 38);
             this.submit4.TabIndex = 52;
             this.submit4.Text = "Submit";
             this.submit4.UseVisualStyleBackColor = true;
@@ -577,20 +542,31 @@ namespace Stormhacks.Practices
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Historic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(146, 1242);
+            this.label4.Location = new System.Drawing.Point(128, 932);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(487, 81);
+            this.label4.Size = new System.Drawing.Size(390, 65);
             this.label4.TabIndex = 51;
             this.label4.Text = "__o you like Pho?";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(652, 1115);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 31);
+            this.button1.TabIndex = 62;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Practice2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(934, 540);
+            this.ClientSize = new System.Drawing.Size(817, 405);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Result4);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox14);
@@ -635,6 +611,7 @@ namespace Stormhacks.Practices
             this.Controls.Add(this.CorrectAns1);
             this.Controls.Add(this.submit1);
             this.Controls.Add(this.Question1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Practice2";
             this.Text = "Practice2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -704,5 +681,6 @@ namespace Stormhacks.Practices
         private System.Windows.Forms.RadioButton CorrectAns4;
         private System.Windows.Forms.Button submit4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
