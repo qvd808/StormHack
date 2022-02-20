@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.exe
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.deps.json
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.runtimeconfig.json
@@ -61,3 +62,67 @@ C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Storm
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice2.resources
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice5.resources
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Result3.resources
+=======
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.exe
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.deps.json
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.runtimeconfig.json
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.dll
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\ref\Stormhacks.dll
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.pdb
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Form1.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.dll
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\ref\Stormhacks.dll
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.pdb
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture1.resources
+D:\Git test\StormHack\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.exe
+D:\Git test\StormHack\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.deps.json
+D:\Git test\StormHack\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.runtimeconfig.json
+D:\Git test\StormHack\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.runtimeconfig.dev.json
+D:\Git test\StormHack\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.dll
+D:\Git test\StormHack\Stormhacks\bin\Debug\net5.0-windows\ref\Stormhacks.dll
+D:\Git test\StormHack\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.pdb
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.csproj.AssemblyReference.cache
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Form1.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture1.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.csproj.GenerateResource.cache
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.AssemblyInfoInputs.cache
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.AssemblyInfo.cs
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.csproj.CoreCompileInputs.cache
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.dll
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\ref\Stormhacks.dll
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.pdb
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.genruntimeconfig.cache
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Properties.Resources.resources
+<<<<<<< HEAD
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Homepage.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Properties.Resources.resources
+=======
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Homepage.resources
+>>>>>>> ecdd28e88d98d3d87dd82aeb52445e53e7b0f9a7
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture2.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture3.resources
+>>>>>>> 86ebfffd2e5c37c3d47f3af6ad888529950c72ee
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture3.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture2.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture5.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture5.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices1.MultipleChoice1.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture4.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.MultipleChoice1.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice1.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice1 - Copy.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Lecture4.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice1 - Copy.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice1.resources
+C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice2.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice2.resources
+>>>>>>> 13f871a670bb3728078d8d1077d65ba353ee1f45
