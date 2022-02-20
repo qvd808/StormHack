@@ -16,6 +16,7 @@ namespace Stormhacks
         public Homepage()
         {
             InitializeComponent();
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
         }
 
         private void Exit_button_Click(object sender, EventArgs e)
