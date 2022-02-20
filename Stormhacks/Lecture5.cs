@@ -13,6 +13,7 @@ namespace Stormhacks
     public partial class Lecture5 : Form
     {
         Form1 frm;
+        Practices.Practice5 pr5 = new Practices.Practice5();
         public Lecture5(Form1 fr)
         {
             InitializeComponent();
@@ -33,6 +34,12 @@ namespace Stormhacks
         {
             this.Hide();
             frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pr5.Show();
         }
     }
 }

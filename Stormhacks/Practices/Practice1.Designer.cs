@@ -71,6 +71,7 @@ namespace Stormhacks.Practices
             this.Question1.TabIndex = 0;
             this.Question1.Text = "He__lo my friends!";
             this.Question1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Question1.Click += new System.EventHandler(this.Question1_Click);
             // 
             // submit
             // 
@@ -92,6 +93,7 @@ namespace Stormhacks.Practices
             this.CorrectAns.TabStop = true;
             this.CorrectAns.Text = "A";
             this.CorrectAns.UseVisualStyleBackColor = true;
+            this.CorrectAns.CheckedChanged += new System.EventHandler(this.CorrectAns_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -115,6 +117,7 @@ namespace Stormhacks.Practices
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "C";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -126,6 +129,7 @@ namespace Stormhacks.Practices
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "D";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -136,6 +140,7 @@ namespace Stormhacks.Practices
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -146,6 +151,7 @@ namespace Stormhacks.Practices
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -156,6 +162,7 @@ namespace Stormhacks.Practices
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 13;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
             // 
@@ -166,6 +173,7 @@ namespace Stormhacks.Practices
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 14;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox7
             // 
@@ -176,6 +184,7 @@ namespace Stormhacks.Practices
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 23;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox8
             // 
@@ -186,6 +195,7 @@ namespace Stormhacks.Practices
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 22;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // CorrectAns2
             // 
@@ -197,6 +207,7 @@ namespace Stormhacks.Practices
             this.CorrectAns2.TabStop = true;
             this.CorrectAns2.Text = "D";
             this.CorrectAns2.UseVisualStyleBackColor = true;
+            this.CorrectAns2.CheckedChanged += new System.EventHandler(this.CorrectAns2_CheckedChanged);
             // 
             // radioButton5
             // 
@@ -210,6 +221,7 @@ namespace Stormhacks.Practices
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "C";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton6
             // 
@@ -221,6 +233,7 @@ namespace Stormhacks.Practices
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "B";
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
             // WrongAns2
             // 
@@ -232,6 +245,7 @@ namespace Stormhacks.Practices
             this.WrongAns2.TabStop = true;
             this.WrongAns2.Text = "A";
             this.WrongAns2.UseVisualStyleBackColor = true;
+            this.WrongAns2.CheckedChanged += new System.EventHandler(this.WrongAns2_CheckedChanged);
             // 
             // button1
             // 
@@ -273,6 +287,7 @@ namespace Stormhacks.Practices
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(0, 25);
             this.Result.TabIndex = 27;
+            this.Result.Click += new System.EventHandler(this.Result_Click);
             // 
             // pictureBox9
             // 
@@ -283,6 +298,7 @@ namespace Stormhacks.Practices
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 28;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox5
             // 
@@ -293,6 +309,7 @@ namespace Stormhacks.Practices
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 29;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // Practice1
             // 

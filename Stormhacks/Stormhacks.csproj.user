@@ -28,5 +28,8 @@
     <Compile Update="Practices\Practice2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Practices\Practice5.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
