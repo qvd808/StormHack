@@ -19,6 +19,7 @@ namespace Stormhacks
             InitializeComponent();
             frm = fr;
             multiChoice1 = new Practices.Practice1(this);
+            CenterToScreen();
         }
 
         private void Lecture1_Load(object sender, EventArgs e)
@@ -48,5 +49,59 @@ namespace Stormhacks
             frm.Show();
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lec1label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

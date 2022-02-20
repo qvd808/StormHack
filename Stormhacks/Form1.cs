@@ -20,7 +20,7 @@ namespace Stormhacks
         public Form1()
         {
             InitializeComponent();
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            CenterToScreen();
             lec1 = new Lecture1(this);
             lec2 = new Lecture2(this);
             lec3 = new Lecture3(this);

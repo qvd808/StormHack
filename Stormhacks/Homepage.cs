@@ -16,7 +16,7 @@ namespace Stormhacks
         public Homepage()
         {
             InitializeComponent();
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            CenterToScreen();
         }
 
         private void Exit_button_Click(object sender, EventArgs e)
@@ -31,6 +31,11 @@ namespace Stormhacks
         }
 
         private void Homepage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
