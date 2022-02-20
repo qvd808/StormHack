@@ -101,5 +101,10 @@ namespace Stormhacks.Practices
             this.Hide();
             lecture2.Show();
         }
+
+        private void Practice2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,7 +29,6 @@ namespace Stormhacks
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lec1label = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -44,6 +43,7 @@ namespace Stormhacks
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -52,22 +52,12 @@ namespace Stormhacks
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
-            // Lec1label
-            // 
-            this.Lec1label.AutoSize = true;
-            this.Lec1label.Location = new System.Drawing.Point(293, 26);
-            this.Lec1label.Name = "Lec1label";
-            this.Lec1label.Size = new System.Drawing.Size(111, 15);
-            this.Lec1label.TabIndex = 0;
-            this.Lec1label.Text = "Lecture 1:Hello, bye";
-            this.Lec1label.Click += new System.EventHandler(this.Lec1label_Click);
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Stormhacks.Properties.Resources.hand1_h_bot_seg_1_cropped;
-            this.pictureBox4.Location = new System.Drawing.Point(45, 58);
+            this.pictureBox4.Location = new System.Drawing.Point(157, 117);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(140, 131);
+            this.pictureBox4.Size = new System.Drawing.Size(131, 131);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
@@ -76,9 +66,9 @@ namespace Stormhacks
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Stormhacks.Properties.Resources.hand1_b_bot_seg_1_cropped;
-            this.pictureBox1.Location = new System.Drawing.Point(241, 301);
+            this.pictureBox1.Location = new System.Drawing.Point(353, 360);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(148, 139);
+            this.pictureBox1.Size = new System.Drawing.Size(131, 131);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -87,9 +77,9 @@ namespace Stormhacks
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Stormhacks.Properties.Resources.hand1_y_bot_seg_1_cropped;
-            this.pictureBox2.Location = new System.Drawing.Point(435, 301);
+            this.pictureBox2.Location = new System.Drawing.Point(547, 360);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(134, 139);
+            this.pictureBox2.Size = new System.Drawing.Size(131, 131);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -98,9 +88,9 @@ namespace Stormhacks
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Stormhacks.Properties.Resources.hand1_o_bot_seg_1_cropped;
-            this.pictureBox3.Location = new System.Drawing.Point(45, 301);
+            this.pictureBox3.Location = new System.Drawing.Point(157, 360);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(140, 139);
+            this.pictureBox3.Size = new System.Drawing.Size(131, 131);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
@@ -109,9 +99,9 @@ namespace Stormhacks
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Stormhacks.Properties.Resources.hand1_e_bot_seg_1_cropped;
-            this.pictureBox5.Location = new System.Drawing.Point(241, 58);
+            this.pictureBox5.Location = new System.Drawing.Point(353, 117);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(148, 131);
+            this.pictureBox5.Size = new System.Drawing.Size(131, 131);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
@@ -120,9 +110,9 @@ namespace Stormhacks
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Stormhacks.Properties.Resources.hand1_l_bot_seg_1_cropped;
-            this.pictureBox6.Location = new System.Drawing.Point(435, 58);
+            this.pictureBox6.Location = new System.Drawing.Point(547, 117);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(134, 131);
+            this.pictureBox6.Size = new System.Drawing.Size(131, 131);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
@@ -131,9 +121,12 @@ namespace Stormhacks
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 229);
+            this.label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.MediumBlue;
+            this.label1.Location = new System.Drawing.Point(221, 261);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 15);
+            this.label1.Size = new System.Drawing.Size(21, 21);
             this.label1.TabIndex = 7;
             this.label1.Text = "H";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -141,9 +134,12 @@ namespace Stormhacks
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(241, 229);
+            this.label2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.MediumBlue;
+            this.label2.Location = new System.Drawing.Point(417, 261);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(13, 15);
+            this.label2.Size = new System.Drawing.Size(18, 21);
             this.label2.TabIndex = 8;
             this.label2.Text = "E";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -151,9 +147,12 @@ namespace Stormhacks
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(435, 228);
+            this.label3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.MediumBlue;
+            this.label3.Location = new System.Drawing.Point(611, 260);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(13, 15);
+            this.label3.Size = new System.Drawing.Size(18, 21);
             this.label3.TabIndex = 9;
             this.label3.Text = "L";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -161,9 +160,12 @@ namespace Stormhacks
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 490);
+            this.label4.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.MediumBlue;
+            this.label4.Location = new System.Drawing.Point(220, 511);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(16, 15);
+            this.label4.Size = new System.Drawing.Size(22, 21);
             this.label4.TabIndex = 10;
             this.label4.Text = "O";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -171,9 +173,12 @@ namespace Stormhacks
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(241, 490);
+            this.label5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.MediumBlue;
+            this.label5.Location = new System.Drawing.Point(416, 511);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(14, 15);
+            this.label5.Size = new System.Drawing.Size(19, 21);
             this.label5.TabIndex = 11;
             this.label5.Text = "B";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -181,39 +186,59 @@ namespace Stormhacks
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(435, 490);
+            this.label6.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.MediumBlue;
+            this.label6.Location = new System.Drawing.Point(610, 511);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(14, 15);
+            this.label6.Size = new System.Drawing.Size(19, 21);
             this.label6.TabIndex = 12;
             this.label6.Text = "Y";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(241, 551);
+            this.button1.BackColor = System.Drawing.Color.Goldenrod;
+            this.button1.ForeColor = System.Drawing.Color.GhostWhite;
+            this.button1.Location = new System.Drawing.Point(376, 596);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 44);
+            this.button1.Size = new System.Drawing.Size(86, 35);
             this.button1.TabIndex = 13;
-            this.button1.Text = "Practice!!!!";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Practice";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(79, 551);
+            this.button2.BackColor = System.Drawing.Color.Goldenrod;
+            this.button2.ForeColor = System.Drawing.Color.GhostWhite;
+            this.button2.Location = new System.Drawing.Point(168, 596);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(80, 44);
+            this.button2.Size = new System.Drawing.Size(86, 35);
             this.button2.TabIndex = 14;
             this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.SlateBlue;
+            this.label7.Location = new System.Drawing.Point(159, 21);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(522, 72);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Lecture 1: Hello, bye";
             // 
             // Lecture1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(714, 633);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(859, 520);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
@@ -228,7 +253,6 @@ namespace Stormhacks
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.Lec1label);
             this.Name = "Lecture1";
             this.Text = "Lecture1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -243,8 +267,6 @@ namespace Stormhacks
         }
 
         #endregion
-
-        private System.Windows.Forms.Label Lec1label;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -260,5 +282,6 @@ namespace Stormhacks
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label7;
     }
 }
