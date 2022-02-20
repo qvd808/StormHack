@@ -7,7 +7,7 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\comga\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\comga\\.nuget\\packages",
+      "C:\\Users\\vinh0\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
