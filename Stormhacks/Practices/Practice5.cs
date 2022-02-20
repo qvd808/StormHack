@@ -110,5 +110,34 @@ namespace Stormhacks.Practices
             this.Hide();
             lecture5.Show();
         }
+
+        private void Practice5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (answer1.Text == "6789")
+            {
+                Result4.Text = "Correct!!";
+            }
+            else
+            {
+                Result4.Text = "Wrong! Try again!";
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (answer2.Text == "30145")
+            {
+                Result5.Text = "Correct!!";
+            }
+            else
+            {
+                Result5.Text = "Wrong! Try again!";
+            }
+        }
     }
 }
