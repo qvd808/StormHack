@@ -51,6 +51,7 @@ namespace Stormhacks
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -273,6 +274,16 @@ namespace Stormhacks
             this.label11.Text = "9";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(73, 753);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(119, 36);
+            this.button2.TabIndex = 22;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Lecture5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -280,6 +291,7 @@ namespace Stormhacks
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(957, 635);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -343,5 +355,6 @@ namespace Stormhacks
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button2;
     }
 }

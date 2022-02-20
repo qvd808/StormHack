@@ -37,9 +37,10 @@ namespace Stormhacks
             // Start_button
             // 
             this.Start_button.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Start_button.Location = new System.Drawing.Point(347, 195);
+            this.Start_button.Location = new System.Drawing.Point(304, 146);
+            this.Start_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Start_button.Name = "Start_button";
-            this.Start_button.Size = new System.Drawing.Size(94, 48);
+            this.Start_button.Size = new System.Drawing.Size(82, 36);
             this.Start_button.TabIndex = 0;
             this.Start_button.Text = "Start";
             this.Start_button.UseVisualStyleBackColor = true;
@@ -48,9 +49,10 @@ namespace Stormhacks
             // Exit_button
             // 
             this.Exit_button.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Exit_button.Location = new System.Drawing.Point(347, 280);
+            this.Exit_button.Location = new System.Drawing.Point(304, 210);
+            this.Exit_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Exit_button.Name = "Exit_button";
-            this.Exit_button.Size = new System.Drawing.Size(94, 48);
+            this.Exit_button.Size = new System.Drawing.Size(82, 36);
             this.Exit_button.TabIndex = 0;
             this.Exit_button.Text = "Exit";
             this.Exit_button.UseVisualStyleBackColor = true;
@@ -60,22 +62,24 @@ namespace Stormhacks
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(282, 106);
+            this.label1.Location = new System.Drawing.Point(247, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 46);
+            this.label1.Size = new System.Drawing.Size(182, 37);
             this.label1.TabIndex = 2;
             this.label1.Text = "SignAlphabet";
             // 
             // Homepage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(700, 338);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Exit_button);
             this.Controls.Add(this.Start_button);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Homepage";
             this.Text = "Homepage";
+            this.Load += new System.EventHandler(this.Homepage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

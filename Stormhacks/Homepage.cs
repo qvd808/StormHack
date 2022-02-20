@@ -28,5 +28,10 @@ namespace Stormhacks
             this.Hide();
             f1.Show();
         }
+
+        private void Homepage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
