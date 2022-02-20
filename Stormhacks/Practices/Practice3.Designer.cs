@@ -88,6 +88,10 @@ namespace Stormhacks.Practices
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.radioButton13 = new System.Windows.Forms.RadioButton();
+            this.radioButton14 = new System.Windows.Forms.RadioButton();
+            this.CorrectAns4 = new System.Windows.Forms.RadioButton();
+            this.radioButton16 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -514,7 +518,7 @@ namespace Stormhacks.Practices
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(751, 45);
             this.label5.TabIndex = 104;
-            this.label5.Text = "From the string above, type your answer in the box:";
+            this.label5.Text = "From the string below, type your answer in the box:";
             // 
             // pictureBox13
             // 
@@ -621,7 +625,7 @@ namespace Stormhacks.Practices
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(751, 45);
             this.label7.TabIndex = 118;
-            this.label7.Text = "From the string above, type your answer in the box:";
+            this.label7.Text = "From the string below, type your answer in the box:";
             // 
             // pictureBox20
             // 
@@ -717,6 +721,52 @@ namespace Stormhacks.Practices
             this.radioButton12.Text = "C";
             this.radioButton12.UseVisualStyleBackColor = true;
             // 
+            // radioButton13
+            // 
+            this.radioButton13.AutoSize = true;
+            this.radioButton13.Location = new System.Drawing.Point(519, 701);
+            this.radioButton13.Name = "radioButton13";
+            this.radioButton13.Size = new System.Drawing.Size(33, 19);
+            this.radioButton13.TabIndex = 126;
+            this.radioButton13.TabStop = true;
+            this.radioButton13.Text = "D";
+            this.radioButton13.UseVisualStyleBackColor = true;
+            // 
+            // radioButton14
+            // 
+            this.radioButton14.AutoSize = true;
+            this.radioButton14.Location = new System.Drawing.Point(359, 704);
+            this.radioButton14.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
+            this.radioButton14.Name = "radioButton14";
+            this.radioButton14.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.radioButton14.Size = new System.Drawing.Size(33, 24);
+            this.radioButton14.TabIndex = 125;
+            this.radioButton14.TabStop = true;
+            this.radioButton14.Text = "C";
+            this.radioButton14.UseVisualStyleBackColor = true;
+            // 
+            // CorrectAns4
+            // 
+            this.CorrectAns4.AutoSize = true;
+            this.CorrectAns4.Location = new System.Drawing.Point(219, 704);
+            this.CorrectAns4.Name = "CorrectAns4";
+            this.CorrectAns4.Size = new System.Drawing.Size(32, 19);
+            this.CorrectAns4.TabIndex = 124;
+            this.CorrectAns4.TabStop = true;
+            this.CorrectAns4.Text = "B";
+            this.CorrectAns4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton16
+            // 
+            this.radioButton16.AutoSize = true;
+            this.radioButton16.Location = new System.Drawing.Point(67, 704);
+            this.radioButton16.Name = "radioButton16";
+            this.radioButton16.Size = new System.Drawing.Size(33, 19);
+            this.radioButton16.TabIndex = 123;
+            this.radioButton16.TabStop = true;
+            this.radioButton16.Text = "A";
+            this.radioButton16.UseVisualStyleBackColor = true;
+            // 
             // Practice3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -724,6 +774,10 @@ namespace Stormhacks.Practices
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(950, 654);
+            this.Controls.Add(this.radioButton13);
+            this.Controls.Add(this.radioButton14);
+            this.Controls.Add(this.CorrectAns4);
+            this.Controls.Add(this.radioButton16);
             this.Controls.Add(this.pictureBox19);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button5);
@@ -874,5 +928,9 @@ namespace Stormhacks.Practices
         private System.Windows.Forms.RadioButton radioButton10;
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.RadioButton radioButton12;
+        private System.Windows.Forms.RadioButton radioButton13;
+        private System.Windows.Forms.RadioButton radioButton14;
+        private System.Windows.Forms.RadioButton CorrectAns4;
+        private System.Windows.Forms.RadioButton radioButton16;
     }
 }
