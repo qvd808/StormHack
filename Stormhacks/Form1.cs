@@ -12,7 +12,7 @@ namespace Stormhacks
 {
     public partial class Form1 : Form
     {
-        Lecture1 lec1 = new Lecture1();
+        Lecture1 lec1;
         Lecture2 lec2 = new Lecture2();
         Lecture3 lec3 = new Lecture3();
         Lecture4 lec4 = new Lecture4();
@@ -20,6 +20,7 @@ namespace Stormhacks
         public Form1()
         {
             InitializeComponent();
+            lec1 = new Lecture1(this);
         }
 
         private void button1_Click(object sender, EventArgs e)
