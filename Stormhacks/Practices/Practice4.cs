@@ -81,5 +81,29 @@ namespace Stormhacks.Practices
             this.Hide();
             lecture4.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (answer1.Text == "rice")
+            {
+                Result5.Text = "Correct!!!";
+            }
+            else
+            {
+                Result5.Text = "Wrong! Try again!";
+            }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            if (answer2.Text == "burger")
+            {
+                Result6.Text = "Correct!!!";
+            }
+            else
+            {
+                Result6.Text = "Wrong! Try again!";
+            }
+        }
     }
 }
