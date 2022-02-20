@@ -17,6 +17,7 @@ namespace Stormhacks.Practices
         {
             InitializeComponent();
             lecture1 = l1;
+            CenterToScreen();
         }
 
         private void A_btn_Click(object sender, EventArgs e)
