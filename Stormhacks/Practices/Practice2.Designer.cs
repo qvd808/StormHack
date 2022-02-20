@@ -89,7 +89,7 @@ namespace Stormhacks.Practices
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.Result6 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Result5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -717,14 +717,14 @@ namespace Stormhacks.Practices
             this.Result6.Size = new System.Drawing.Size(0, 25);
             this.Result6.TabIndex = 78;
             // 
-            // label1
+            // Result5
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(480, 1432);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 25);
-            this.label1.TabIndex = 79;
+            this.Result5.AutoSize = true;
+            this.Result5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Result5.Location = new System.Drawing.Point(480, 1432);
+            this.Result5.Name = "Result5";
+            this.Result5.Size = new System.Drawing.Size(0, 25);
+            this.Result5.TabIndex = 79;
             // 
             // Practice2
             // 
@@ -733,7 +733,7 @@ namespace Stormhacks.Practices
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(817, 405);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Result5);
             this.Controls.Add(this.Result6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.answer2);
