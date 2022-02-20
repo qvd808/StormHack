@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Stormhacks.Practices1
+namespace Stormhacks.Practices
 {
-    public partial class MultipleChoice1 : Form
+    public partial class Practice1 : Form
     {
-        public MultipleChoice1()
+        public Practice1()
         {
             InitializeComponent();
         }
@@ -31,11 +31,11 @@ namespace Stormhacks.Practices1
         {
             if (CorrectAns.Checked == true)
             {
-                Answer.Text = "Correct";
+                Result.Text = "Correct! Congrats!";
             }
             else
             {
-                Answer.Text = "Wrong! Try Again";
+                Result.Text = "Wrong! Try Again!";
             }
         }
 
@@ -47,6 +47,28 @@ namespace Stormhacks.Practices1
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void MultipleChoice1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (CorrectAns2.Checked == true)
+            {
+                Result2.Text = "Correct!!";
+            }
+            else
+            {
+                Result2.Text = "Wrong! Try again!";
+            }
         }
     }
 }
