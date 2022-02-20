@@ -70,5 +70,10 @@ namespace Stormhacks.Practices
                 Result2.Text = "Wrong! Try again!";
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
