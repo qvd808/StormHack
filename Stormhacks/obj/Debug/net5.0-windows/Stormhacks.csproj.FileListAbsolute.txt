@@ -94,3 +94,6 @@ C:\Users\comga\source\repos\StormHack\Stormhacks\bin\Debug\net5.0-windows\ref\St
 C:\Users\comga\source\repos\StormHack\Stormhacks\bin\Debug\net5.0-windows\Stormhacks.pdb
 C:\Users\comga\source\repos\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice4.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice3.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice4.resources
+D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice5.resources

@@ -60,24 +60,8 @@ namespace Stormhacks.Practices
             this.answer = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.fdsg = new System.Windows.Forms.TextBox();
-            this.Result3 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.Result4 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.answer2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.Result5 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.answer3 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -91,14 +75,6 @@ namespace Stormhacks.Practices
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.SuspendLayout();
             // 
             // Question1
@@ -396,7 +372,7 @@ namespace Stormhacks.Practices
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(751, 45);
             this.label2.TabIndex = 35;
-            this.label2.Text = "From the string below, type your answer in the box:";
+            this.label2.Text = "From the string above, type your answer in the box:";
             this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // answer
@@ -425,179 +401,25 @@ namespace Stormhacks.Practices
             this.fdsg.Size = new System.Drawing.Size(100, 23);
             this.fdsg.TabIndex = 38;
             // 
-            // Result3
+            // label3
             // 
-            this.Result3.AutoSize = true;
-            this.Result3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result3.Location = new System.Drawing.Point(488, 838);
-            this.Result3.Name = "Result3";
-            this.Result3.Size = new System.Drawing.Size(0, 25);
-            this.Result3.TabIndex = 39;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(488, 838);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 25);
+            this.label3.TabIndex = 39;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(703, 1440);
+            this.button3.Location = new System.Drawing.Point(666, 853);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 31);
             this.button3.TabIndex = 40;
             this.button3.Text = "Back";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // Result4
-            // 
-            this.Result4.AutoSize = true;
-            this.Result4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result4.Location = new System.Drawing.Point(488, 1143);
-            this.Result4.Name = "Result4";
-            this.Result4.Size = new System.Drawing.Size(0, 25);
-            this.Result4.TabIndex = 49;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(363, 1138);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(92, 34);
-            this.button4.TabIndex = 48;
-            this.button4.Text = "Submit";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // answer2
-            // 
-            this.answer2.Location = new System.Drawing.Point(199, 1145);
-            this.answer2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 20);
-            this.answer2.Name = "answer2";
-            this.answer2.Size = new System.Drawing.Size(129, 23);
-            this.answer2.TabIndex = 47;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(36, 938);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(751, 45);
-            this.label5.TabIndex = 46;
-            this.label5.Text = "From the string below, type your answer in the box:";
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::Stormhacks.Properties.Resources.hand1_y_bot_seg_1_cropped;
-            this.pictureBox15.Location = new System.Drawing.Point(344, 1003);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(109, 106);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 44;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = global::Stormhacks.Properties.Resources.hand1_b_bot_seg_1_cropped;
-            this.pictureBox16.Location = new System.Drawing.Point(181, 1003);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(109, 106);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 43;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = global::Stormhacks.Properties.Resources.hand1_e_bot_seg_1_cropped;
-            this.pictureBox18.Location = new System.Drawing.Point(510, 1003);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(109, 106);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 41;
-            this.pictureBox18.TabStop = false;
-            this.pictureBox18.Click += new System.EventHandler(this.pictureBox18_Click);
-            // 
-            // Result5
-            // 
-            this.Result5.AutoSize = true;
-            this.Result5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Result5.Location = new System.Drawing.Point(488, 1446);
-            this.Result5.Name = "Result5";
-            this.Result5.Size = new System.Drawing.Size(0, 25);
-            this.Result5.TabIndex = 58;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(363, 1441);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(92, 34);
-            this.button5.TabIndex = 57;
-            this.button5.Text = "Submit";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // answer3
-            // 
-            this.answer3.Location = new System.Drawing.Point(199, 1448);
-            this.answer3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 20);
-            this.answer3.Name = "answer3";
-            this.answer3.Size = new System.Drawing.Size(129, 23);
-            this.answer3.TabIndex = 56;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(36, 1241);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(751, 45);
-            this.label7.TabIndex = 55;
-            this.label7.Text = "From the string below, type your answer in the box:";
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = global::Stormhacks.Properties.Resources.hand1_y_bot_seg_1_cropped;
-            this.pictureBox19.Location = new System.Drawing.Point(636, 1308);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(109, 106);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 54;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = global::Stormhacks.Properties.Resources.hand1_o_bot_seg_1_cropped;
-            this.pictureBox20.Location = new System.Drawing.Point(202, 1308);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(109, 106);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 53;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::Stormhacks.Properties.Resources.hand1_h_bot_seg_1_cropped;
-            this.pictureBox21.Location = new System.Drawing.Point(55, 1308);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(109, 106);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 52;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = global::Stormhacks.Properties.Resources.hand1_b_bot_seg_1_cropped;
-            this.pictureBox22.Location = new System.Drawing.Point(492, 1308);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(109, 106);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 51;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = global::Stormhacks.Properties.Resources.hand1_b_bot_seg_1_cropped;
-            this.pictureBox23.Location = new System.Drawing.Point(346, 1308);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(109, 106);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox23.TabIndex = 50;
-            this.pictureBox23.TabStop = false;
             // 
             // Practice1
             // 
@@ -606,24 +428,8 @@ namespace Stormhacks.Practices
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(816, 551);
-            this.Controls.Add(this.Result5);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.answer3);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox22);
-            this.Controls.Add(this.pictureBox23);
-            this.Controls.Add(this.Result4);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.answer2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox18);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.Result3);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.answer);
             this.Controls.Add(this.label2);
@@ -671,14 +477,6 @@ namespace Stormhacks.Practices
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -722,23 +520,7 @@ namespace Stormhacks.Practices
         private System.Windows.Forms.TextBox answer;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox fdsg;
-        private System.Windows.Forms.Label Result3;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label Result4;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox answer2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.Label Result5;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox answer3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
     }
 }

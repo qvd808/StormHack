@@ -77,11 +77,11 @@ namespace Stormhacks.Practices
         {
             if (answer.Text == "hello")
             {
-                Result3.Text = "Correct!!";
+                label3.Text = "Correct!!";
             }
             else
             {
-                Result3.Text = "Wrong! Try again!";
+                label3.Text = "Wrong! Try again!";
             }
         }
 
@@ -126,31 +126,7 @@ namespace Stormhacks.Practices
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            if (answer2.Text == "bye")
-            {
-                Result4.Text = "Correct!!";
-            }
-            else
-            {
-                Result4.Text = "Wrong! Try again!";
-            }
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            if (answer3.Text == "hobby")
-            {
-                Result5.Text = "Correct!!";
-            }
-            else
-            {
-                Result5.Text = "Wrong! Try again!";
-            }
-        }
-
-        private void pictureBox18_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
