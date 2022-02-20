@@ -59,4 +59,3 @@ C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Storm
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice1 - Copy.resources
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice1.resources
 C:\Users\Admin\source\repos\Stormhacks\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice2.resources
-D:\Git test\StormHack\Stormhacks\obj\Debug\net5.0-windows\Stormhacks.Practices.Practice2.resources
