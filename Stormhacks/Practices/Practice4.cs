@@ -10,22 +10,28 @@ using System.Windows.Forms;
 
 namespace Stormhacks.Practices
 {
-    public partial class Practice2 : Form
+    public partial class Practice4 : Form
     {
-        public Practice2()
+        public Practice4()
         {
             InitializeComponent();
         }
 
+        private void Practice4_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void submit1_Click(object sender, EventArgs e)
         {
-            if(CorrectAns1.Checked == true)
+            if (CorrectAns1.Checked == true)
             {
-                Result1.Text = "Correct!!!";
+                Result1.Text = "Correct!!";
                 submit1.Visible = false;
-            } else
+            }
+            else
             {
-                Result1.Text = "Wrong! Try again";
+                Result1.Text = "Wrong! Try again!";
             }
         }
 
@@ -33,12 +39,12 @@ namespace Stormhacks.Practices
         {
             if (CorrectAns2.Checked == true)
             {
-                Result2.Text = "Correct!!!";
+                Result2.Text = "Correct!!";
                 submit2.Visible = false;
             }
             else
             {
-                Result2.Text = "Wrong! Try again";
+                Result2.Text = "Wrong! Try again!";
             }
         }
 
@@ -46,28 +52,26 @@ namespace Stormhacks.Practices
         {
             if (CorrectAns3.Checked == true)
             {
-                Result3.Text = "Correct!!!";
+                Result3.Text = "Correct!!";
                 submit3.Visible = false;
             }
             else
             {
-                Result3.Text = "Wrong! Try again";
+                Result3.Text = "Wrong! Try again!";
             }
         }
-
 
         private void submit4_Click(object sender, EventArgs e)
         {
             if (CorrectAns4.Checked == true)
             {
-                Result4.Text = "Correct!!!";
+                Result4.Text = "Correct!!";
                 submit4.Visible = false;
             }
             else
             {
-                Result4.Text = "Wrong! Try again";
+                Result4.Text = "Wrong! Try again!";
             }
         }
-
     }
 }
