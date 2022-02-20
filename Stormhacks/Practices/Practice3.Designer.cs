@@ -772,8 +772,7 @@ namespace Stormhacks.Practices
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(950, 654);
+            this.ClientSize = new System.Drawing.Size(816, 514);
             this.Controls.Add(this.radioButton13);
             this.Controls.Add(this.radioButton14);
             this.Controls.Add(this.CorrectAns4);

@@ -17,6 +17,7 @@ namespace Stormhacks.Practices
         {
             InitializeComponent();
             lecture4 = l4;
+            CenterToScreen();
         }
 
         private void Practice4_Load(object sender, EventArgs e)

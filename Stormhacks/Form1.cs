@@ -20,6 +20,7 @@ namespace Stormhacks
         public Form1()
         {
             InitializeComponent();
+            CenterToScreen();
             lec1 = new Lecture1(this);
             lec2 = new Lecture2(this);
             lec3 = new Lecture3(this);
@@ -54,6 +55,11 @@ namespace Stormhacks
         {
             this.Hide();
             lec5.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
