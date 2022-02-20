@@ -12,9 +12,11 @@ namespace Stormhacks
 {
     public partial class Lecture5 : Form
     {
-        public Lecture5()
+        Form1 frm;
+        public Lecture5(Form1 fr)
         {
             InitializeComponent();
+            frm = fr;
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -25,6 +27,12 @@ namespace Stormhacks
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frm.Show();
         }
     }
 }

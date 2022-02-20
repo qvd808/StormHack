@@ -189,9 +189,9 @@ namespace Stormhacks
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(44, 557);
+            this.button2.Location = new System.Drawing.Point(67, 557);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 43);
+            this.button2.Size = new System.Drawing.Size(80, 44);
             this.button2.TabIndex = 14;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = true;
