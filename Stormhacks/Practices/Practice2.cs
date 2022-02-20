@@ -68,5 +68,30 @@ namespace Stormhacks.Practices
                 Result4.Text = "Wrong! Try again";
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (answer1.Text == "name")
+            {
+                label1.Text = "Correct!!";
+            }
+            else
+            {
+                label1.Text = "Wrong! Try again!";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (answer2.Text == "siro")
+            {
+                Result6.Text = "Correct!!";
+            }
+            else
+            {
+                Result6.Text = "Wrong! Try again!";
+            }
+        }
+    
     }
 }
