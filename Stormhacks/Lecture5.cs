@@ -13,11 +13,12 @@ namespace Stormhacks
     public partial class Lecture5 : Form
     {
         Form1 frm;
-        Practices.Practice5 pr5 = new Practices.Practice5();
+        Practices.Practice5 pr5;
         public Lecture5(Form1 fr)
         {
             InitializeComponent();
             frm = fr;
+            pr5 = new Practices.Practice5(this);
         }
 
         private void label11_Click(object sender, EventArgs e)

@@ -10,18 +10,19 @@ using System.Windows.Forms;
 
 namespace Stormhacks.Practices
 {
-    public partial class Practice5 : Form
+    public partial class Practice3 : Form
     {
-        Lecture5 lecture5;
-        public Practice5(Lecture5 l5)
+        Lecture3 lecture3;
+        public Practice3(Lecture3 l3)
         {
             InitializeComponent();
-            lecture5 = l5;
+            lecture3 = l3;
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            lecture3.Show();
         }
 
         private void submit_Click(object sender, EventArgs e)
@@ -48,46 +49,6 @@ namespace Stormhacks.Practices
             }
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton7_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton8_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             if (CorrectAns3.Checked == true)
@@ -98,17 +59,6 @@ namespace Stormhacks.Practices
             {
                 Result3.Text = "Wrong! Try Again!";
             }
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            lecture5.Show();
         }
     }
 }
