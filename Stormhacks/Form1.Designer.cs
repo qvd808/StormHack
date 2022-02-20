@@ -39,10 +39,10 @@ namespace Stormhacks
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(129, 307);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Location = new System.Drawing.Point(113, 230);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 31);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Lecture 1";
             this.button1.UseVisualStyleBackColor = true;
@@ -50,10 +50,10 @@ namespace Stormhacks
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(129, 376);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.Location = new System.Drawing.Point(113, 282);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 31);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "Lecture 2";
             this.button2.UseVisualStyleBackColor = true;
@@ -61,10 +61,10 @@ namespace Stormhacks
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(129, 447);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.Location = new System.Drawing.Point(113, 335);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(86, 31);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "Lecture 3";
             this.button3.UseVisualStyleBackColor = true;
@@ -72,10 +72,10 @@ namespace Stormhacks
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(129, 521);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button4.Location = new System.Drawing.Point(113, 391);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(86, 31);
+            this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 3;
             this.button4.Text = "Lecture 4";
             this.button4.UseVisualStyleBackColor = true;
@@ -83,10 +83,10 @@ namespace Stormhacks
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(129, 591);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button5.Location = new System.Drawing.Point(113, 443);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(86, 31);
+            this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 4;
             this.button5.Text = "Lecture 5";
             this.button5.UseVisualStyleBackColor = true;
@@ -94,25 +94,26 @@ namespace Stormhacks
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(152, 112);
+            this.label1.Location = new System.Drawing.Point(133, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 20);
+            this.label1.Size = new System.Drawing.Size(32, 15);
             this.label1.TabIndex = 5;
             this.label1.Text = "UwU";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(370, 857);
+            this.ClientSize = new System.Drawing.Size(324, 643);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
